@@ -1,0 +1,10 @@
+.btn-theme-primary {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.border-theme-primary {
+    border-color: var(--primary-color) !important;
+}
+.border-theme-primary.light {
+    border-color: var(--primary-color-light) !important;
+}

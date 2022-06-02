@@ -1,5 +1,6 @@
 @import url(color.css);
 @import url(utility.css);
+@import url(theme.css);
 
 /* --body--overall */
 body,html {
@@ -7,4 +8,12 @@ body,html {
     margin: 0;
     overflow: auto;
     font-family: 'Poppins', sans-serif;
+}
+
+/*input type option*/
+input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='number'] {
+  height: 45px;
 }

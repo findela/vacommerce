@@ -1,7 +1,12 @@
 :root {
     --primary-color: #ED6A3C;
+    --primary-color-light: #FFD5C3;
     --gray-color: #646363;
     --gray-color-light: #D9D9D9;
     --gray-color-lightest: #F6F6F6;
+    --black-color: #000000;
+    --white-color: #fff;
     --success-color: #0F8E04;
+    --warning-color: #FFEB84;
+    --velvet-color: #6F00B4;
 }
