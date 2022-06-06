@@ -8,3 +8,6 @@
 .border-theme-primary.light {
     border-color: var(--primary-color-light) !important;
 }
+.text-theme-primary {
+    color: var(--primary-color);
+}
