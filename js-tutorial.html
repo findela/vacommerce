@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <input type="text" id="sample-text" value=""/>
+        <input type="button" onclick="printValue()" value="Trigger Me!"/>
+        <script> 
+            // var x = 10;
+            // // It is single line comment  
+            // document.write("hello javascript");
+            // document.write("<br/>");
+            // for(let i = 0; i < 10; i++) {
+            //     document.write(i*2);
+            //     document.write("<br/>");
+            // }
+            // printValue = () => {
+            //     document.write("<br/>");
+            //     x = x+10;
+            //     document.write(x);
+            // }
+            // var sampleObject = {
+            //     "name": "Tamaghna Banerjee",
+            //     "phone": 8478896944,
+            //     "gender": "male"
+            // }
+            // var emp = new Object();
+            // emp.name = "Tamaghna Banerjee";
+            // emp.phoneNumber = 8478896944;
+            // console.log(emp);
+
+            // var sampleArray = [1,2,3,4,5];
+            // for(var i = 0; i < sampleArray.length; i++) {
+            //     document.writeln(sampleArray[i]*2);
+            // }
+            // var stringSample = "sample string object"
+            // console.log(stringSample.split("o"));
+            // var now = new Date();
+            // var utc = new Date(now.getTime() + now.getTimezoneOffset() * 60000);
+            // document.writeln(utc);
+            // document.writeln(Math.random() * (3 - 1) + 1 );
+            document.writeln(navigator.platform);
+            document.writeln("<br/>");
+            document.writeln(navigator.appName);
+            document.writeln("<br/>");
+            document.writeln(navigator.appVersion);
+            printValue = () => {
+                console.log(parseInt(document.getElementById("sample-text").value)*2);
+            } 
+        </script>
+    </body>
+</html>
